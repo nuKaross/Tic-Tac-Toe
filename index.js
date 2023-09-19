@@ -111,7 +111,7 @@ const Game = (() => {
     for (let i = 0; i < 9; i++) {
       Gameboard.update(i, '')
     }
-
+    document.querySelector('#gameMsg').innerHTML = ''
     Game.startGame()
     Gameboard.display()
   }
